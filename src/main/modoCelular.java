@@ -84,7 +84,7 @@ public class modoCelular implements iCarroA {
         C4.add("55667788");
         
         C5.add("Odilia Gonzales");
-        C5.add("11223344");
+        C5.add("66775544");
         
     }
     public void verContactos(){    
