@@ -18,6 +18,7 @@ public class Vista{
     modoProductividad productividad = new modoProductividad();
     ModoRadio radio = new ModoRadio();
     modoCelular celular = new modoCelular(productividad);
+    modoReproduccion modoReproduccion = new modoReproduccion();
     
     public void Bienvenida()
     {
@@ -86,14 +87,15 @@ public class Vista{
             {
                 case 1:
                     System.out.println("Por favor, seleccione una canción\n");
-                    
+                    modoReproduccion.ListaReproduccion();
                     break;
                 case 2:	
-                    
+                    System.out.println("Cambiar de cancion\n");
+                    modoReproduccion.CambiarCancion();
                     break;
                 case 3:
                     System.out.println("¿Qué canción desea escuchar?\n");
-                    
+                    modoReproduccion.escucharCancion();
                     break;
                 case 4:
                 System.out.println("Regresando al menu principal...");

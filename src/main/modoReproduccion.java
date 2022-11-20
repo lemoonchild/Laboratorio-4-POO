@@ -25,9 +25,7 @@ public class modoReproduccion {
     ArrayList<String> Cancion5 = new ArrayList<String>();
     ArrayList<String> Canciones = new ArrayList<String>();
 
-    Scanner scan = new Scanner(System.in);
-
-    public void ListaReproduccion() {
+    public modoReproduccion() {
         Cancion1.add("Just Pretend");
         Cancion1.add("3:25");
         Cancion1.add("Bad Omens");
@@ -52,7 +50,11 @@ public class modoReproduccion {
         Cancion5.add("3:08");
         Cancion5.add("Michael Bublé");
         Cancion5.add("Pop Latino");
+    }
 
+    Scanner scan = new Scanner(System.in);
+
+    public void ListaReproduccion() {
         System.out.println(Cancion1);
         System.out.println(Cancion2);
         System.out.println(Cancion3);
