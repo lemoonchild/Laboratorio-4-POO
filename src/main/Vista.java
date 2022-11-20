@@ -164,7 +164,7 @@ public class Vista{
         {
             System.out.println("\nAutomóvil A en Modo Productividad");
             System.out.println("1. Planificar viajes");
-            System.out.println("4. Salir\n");
+            System.out.println("2. Salir\n");
             int opcion = scan.nextInt();
             switch(opcion)
             {
