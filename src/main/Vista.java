@@ -21,7 +21,7 @@ public class Vista{
     
     public void Bienvenida()
     {
-        System.out.println("¡Bienvenid@! Su carro es de tipo A ¿Qué desea realizar?");
+        System.out.println("¡Bienvenid@ a su Mercedes-Benz! Su carro es de tipo A ¿Qué desea realizar?");
     }
 
     public int Menu()
