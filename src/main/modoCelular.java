@@ -108,13 +108,13 @@ public class modoCelular implements iCarroA {
 
     public void realizarLlamada()
     {
+       
         System.out.println("\n¿A quién desea llamar?");
-
-        C1.get(0); 
-        C2.get(0);
-        C3.get(0);
-        C4.get(0);
-        C5.get(0);
+        System.out.println("1. Felipe Santos");
+        System.out.println("2. Marcos Barrios");
+        System.out.println("3. Maria Mercedes");
+        System.out.println("4. Andrea Rosales");
+        System.out.println("5. Odilia Gonzales");  
 
         int op = sc.nextInt();
         if(op == 1)
