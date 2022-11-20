@@ -1,3 +1,13 @@
+/**
+ * @class Programación Orientada a Objetos 
+ * Integrantes: 
+    * Cristian Guevara - 22742
+    * Angel Herrarte - 22873 
+    * Madeline Castro - 22473 
+ * Entrega: 20/11/2022 
+ * Laboratorio #4
+ * Propósito de la clase: Realizar llamadas y mostrar contacto de 
+ */
 
 package main;
 import java.util.Scanner;
