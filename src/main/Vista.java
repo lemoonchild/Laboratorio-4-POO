@@ -16,6 +16,7 @@ public class Vista{
     Scanner scan = new Scanner(System.in);
 
     modoProductividad productividad = new modoProductividad();
+    ModoRadio radio = new ModoRadio();
     modoCelular celular = new modoCelular(productividad);
     
     public void Bienvenida()
