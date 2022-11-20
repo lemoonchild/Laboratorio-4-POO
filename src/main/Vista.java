@@ -51,18 +51,19 @@ public class Vista{
             switch(opcion)
             {
                 case 1:
-                    
+                    radio.TipoRadio();
                     break;
                 case 2:
-                    
+                    radio.CambiarEmisora();
                     break;
                 case 3:
-
+                    radio.GuardarEmisora();
                     break;
                 case 4:
-                    
+                    radio.CargarEmisora();
                     break;
 		        case 5:
+                    System.out.println("Menu principal!");
                     continuar = false;
                     break;   
                 default:
